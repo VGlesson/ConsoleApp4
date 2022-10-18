@@ -17,8 +17,9 @@ namespace ConsoleApp4
             for (int i = 1; i <= n; i++) 
             {
                 s =s+k;
-                k = k + 2;
+                k=k+2;
             }
+            Console.WriteLine("Квадрат числа равен");
             Console.WriteLine(s);
             Console.ReadKey();
         }
